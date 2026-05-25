@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<title>Contact Us</title>
+<style>
+body{
+background:#a3e1dc;
+}
+h1{
+text-align:center;
+margin-top:70px;
+}
+nav{
+display:flex;
+justify-content:space-between;
+background:linear-gradient(to right, skyblue, lavender);
+color:white;
+align-items:center;
+height:55px;
+position:fixed;
+top:0px;
+width:100%;
+}
+.header a{
+   color:#a084ca;
+   text-decoration:none;
+   font-size:20px;
+   background:linear-gradient(to right,lightblue,lightyellow);
+   margin:20px;
+   padding:8px;
+   border-radius:100px;
+   border:2px solid;
+   }
+   .header a:hover{
+   background:linear-gradient(to right,pink,lightyellow);
+   color:#55cbcd;
+   border:4px solid #8fcaca;
+   }
+   .header a:visited{
+   color:#ff968a;
+   border:4px solid #ffacab;
+   }
+.main{
+display:flex;
+float-left:50px;
+}
+.a{
+margin-left:20%;
+}
+form{
+margin-top:50px;
+}
+
+img{
+border-radius:100%;
+margin-left:40px;
+height:200px;
+width:200px;
+}
+mark{
+font-size:20px;
+background:yellow;
+}
+footer{
+margin-top:50px;
+}
+</style>
+</head>
+<body>
+<center>
+<header>
+  <nav>
+  <h2>Travel X</h2>
+	 <div class="header">
+	 <a href="home.html">Home</a>&nbsp;&nbsp;&nbsp;
+	 <a href="destination.html">Destination</a>&nbsp;&nbsp;&nbsp;
+	 <a href="contact us.html">Contact Us</a>&nbsp;&nbsp;&nbsp;
+	 <a href="booknow.html">Book Now</a>&nbsp;&nbsp;&nbsp;
+	 </div>
+	 </nav>
+	 <h1>CONTACT US</h1>	 
+</header>
+<section>
+<mark>Get In Touch</mark>
+<h3>If you have any questions or need assistance, feel free to reach out to
+ us using the form below</h3>
+ </section>
+<form>
+ <div class="main">
+ <div>
+<img src="image1.jpg">
+</div>
+ <div class="a">
+Full Name:<input type="text" placeholder="your name"><br><br>
+Email ID:<input type="email"placeholder="your email"><br><br>
+Message:
+<textarea type="text" placeholder="your message" rows="5" cols="20"></textarea><br><br>
+<input type="submit" value="send" onclick="alert('message send')">
+</div>
+</div>
+</form>
+<footer>
+<p>Business hours: Mon-Fri 9:00 AM - 6:00 PM</p>
+<p>Email:<a href="#"> support@skytravel.com</a></p>
+<p>Phone:<a href="#"> 99 88 776655</a></p>
+<p><a href="#">Privecy policy</a></p>
+</footer>
+</center>
+
+</body>
+</html>

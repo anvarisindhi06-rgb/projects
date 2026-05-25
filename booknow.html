@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body{
+background:lightyellow;
+}
+h1{
+text-align:center;
+margin-top:70px;
+}
+nav{
+display:flex;
+justify-content:space-between;
+background:linear-gradient(to right, skyblue, lavender);
+color:white;
+align-items:center;
+height:50px;
+position:fixed;
+top:0px;
+width:100%;
+}
+.header a{
+   color:#a084ca;
+   text-decoration:none;
+   font-size:20px;
+   background:linear-gradient(to right,lightblue,lightyellow);
+   margin:20px;
+   padding:8px;
+   border-radius:100px;
+   border:2px solid;
+   }
+   .header a:hover{
+   background:linear-gradient(to right,pink,lightyellow);
+   color:#55cbcd;
+   border:4px solid #8fcaca;
+   }
+   .header a:visited{
+   color:#ff968a;
+   border:4px solid #ffacab;
+   }
+   p{
+   text-align:center;
+   }
+.main{
+display:flex;
+margin-left:50px;
+}
+.b{
+padding:50px;
+background:white;
+margin:40px;
+}
+.a{
+margin:35px;
+padding:25px;
+}
+img{
+border-radius:20%;
+box-shadow:3px 4px 8px gold;
+}
+
+</style>
+<header>
+  <nav>
+  <h2>Travel X</h2>
+	 <div class="header">
+	 <a href="home.html">Home</a>&nbsp;&nbsp;&nbsp;
+	 <a href="destination.html">Destination</a>&nbsp;&nbsp;&nbsp;
+	 <a href="contact us.html">Contact Us</a>&nbsp;&nbsp;&nbsp;
+	 <a href="booknow.html">Book Now</a>&nbsp;&nbsp;&nbsp;
+	 </div>
+	 </nav>
+	 <h1>BOOK NOW!</h1>
+</header>
+<section>
+<p>Give youself and your family a peaceful and wonderful vacation this holiday</p>
+</section>
+<div class="main">
+<div class="a">
+<img src="trip.jpg" height="300px" width="250px">
+</div>
+<form>
+<div class="b">
+<h2>Book Your Place Now</h2>
+Where You Gone<br><input type="text" placeholder="Where going"><br><br>
+Members<br><input type="number"><br><br>
+Journey  Starts On<br><input type="date"><br><br>
+Journey Ends On<br><input type="date"><br><br>
+<input type="submit" onclick="alert('sucessfully booked')">
+</div>
+</div>
+</form>
+
+</body>
+</html>
